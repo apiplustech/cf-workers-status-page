@@ -33,7 +33,7 @@ monitors:
   expectStatus: 200
   linkable: false
 - id: quickpage-api-endpoint
-  name: Quickapge API endpoint
+  name: Quickpage API endpoint
   url: 'https://quickpage-api.digisense.io/health'
   method: GET
   expectStatus: 200
@@ -45,13 +45,13 @@ monitors:
   expectStatus: 200
   linkable: false
 - id: hydra-endpoint
-  name: Hydra API endpoint
+  name: OAuth API endpoint
   url: 'https://hydra.digisense.io/health/ready'
   method: GET
   expectStatus: 200
   linkable: false
 - id: kratos-endpoint
-  name: Kratos API endpoint
+  name: IdP API endpoint
   url: 'https://kratos.digisense.io/health/ready'
   method: GET
   expectStatus: 200
