@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: quickpage-digisense-io
-    name: quickpage.digisense.io
+    name: Web: quickpage.digisense.io
     url: 'https://quickpage.digisense.io/'
     method: GET
     expectStatus: 200
@@ -25,28 +25,34 @@ monitors:
     url: 'https://store-api.digisense.io/health'
     method: GET
     expectStatus: 200
+    linkable: false
   - id: org-api-endpoint
     name: Organization API endpoint
     url: 'https://org-api.digisense.io/health'
     method: GET
     expectStatus: 200
+    linkable: false
   - id: quickpage-api-endpoint
-    name: Store API endpoint
+    name: Quickapge API endpoint
     url: 'https://quickpage-api.digisense.io/health'
     method: GET
     expectStatus: 200
+    linkable: false
   - id: authen-api-endpoint
-    name: Store API endpoint
+    name: Authen API endpoint
     url: 'https://authen.digisense.io/health'
     method: GET
     expectStatus: 200
+    linkable: false
   - id: hydra-endpoint
-    name: Store API endpoint
+    name: Hydra API endpoint
     url: 'https://hydra.digisense.io/health/ready'
     method: GET
     expectStatus: 200
+    linkable: false
   - id: kratos-endpoint
-    name: Store API endpoint
+    name: Kratos API endpoint
     url: 'https://kratos.digisense.io/health/ready'
     method: GET
     expectStatus: 200
+    linkable: false
