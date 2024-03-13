@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: quickpage-digisense-io
-    name: Web: quickpage.digisense.io
+    name: quickpage.digisense.io
     url: 'https://quickpage.digisense.io/'
     method: GET
     expectStatus: 200
