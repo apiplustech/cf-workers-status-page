@@ -21,7 +21,7 @@ monitors:
   method: GET
   expectStatus: 200
 - id: store-api-endpoint
-  name: Store API endpoint
+  name: Commerce API endpoint
   url: 'https://store-api.digisense.io/health'
   method: GET
   expectStatus: 200
